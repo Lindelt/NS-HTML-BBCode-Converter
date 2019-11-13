@@ -189,6 +189,8 @@ Associated Class: `box`
 
 ### Sidebar \[sidebar\]
 
+Associated Tags: `<blockquote>`
+
 Associated Class: `sidebar`
 
 ### Size \[size\]
