@@ -1,8 +1,8 @@
 # HTML to BBCode Converter (for NationStates)
 
-A small JavaScript file that adds BBCode tags around the content of certain 
-HTML tags and classes. Intended for use in writing large 
-[NationStates.net](https://www.nationstates.net) dispatches and forum posts, 
+A small JavaScript file that adds BBCode tags around the content of certain
+HTML tags and classes. Intended for use in writing large
+[NationStates.net](https://www.nationstates.net) dispatches and forum posts,
 so that one need not spend hours hunting down that missing closing tag.
 
 ## A word of caution
@@ -104,7 +104,7 @@ argument.
 
 Associated Class: `region`
 
-### World Assembly Proposal
+### World Assembly Proposal \[proposal\]
 
 Associated Class: `proposal`
 
@@ -115,7 +115,7 @@ data-proposal = "={proposal_id}"
 Contains a id the WA proposal.
 ```
 
-### Word Assembly Resolution
+### Word Assembly Resolution \[resolution\]
 
 Associated Class: `resolution`
 
@@ -254,7 +254,7 @@ See [color]. Defaults to "=blue" if no value is provided.
 
 ### List \[list\]
 
-Associated Tags: `<ul>, <ol type="{type}">
+Associated Tags: `<ul>, <ol type="{type}">`
 
 Argument:
 
