@@ -79,8 +79,10 @@ Associated Class: `anchor`
 
 Argument:
 
-```data-anchor = "={name}"
-Contains the {name} of this anchor.```
+```
+data-anchor = "={name}"
+Contains the {name} of this anchor.
+```
 
 ### Image \[img\]
 
@@ -92,9 +94,11 @@ Associated Class: `nation`
 
 Argument:
 
-```data-nation = "=short" | "=short+noflag"
+```
+data-nation = "=short" | "=short+noflag"
 Flag which controls the appearance of the resulting nation name. Optional
-argument.```
+argument.
+```
 
 ### Region \[region\]
 
@@ -106,8 +110,10 @@ Associated Class: `proposal`
 
 Argument:
 
-```data-proposal = "={proposal_id}"
-Contains a id the WA proposal.```
+```
+data-proposal = "={proposal_id}"
+Contains a id the WA proposal.
+```
 
 ### Word Assembly Resolution
 
@@ -115,8 +121,10 @@ Associated Class: `resolution`
 
 Argument:
 
-```data-resolution = "={(GA|SC|UN)#id}"
-Contains the assembly body and resolution number of the resolution.```
+```
+data-resolution = "={(GA|SC|UN)#id}"
+Contains the assembly body and resolution number of the resolution.
+```
 
 ### Quote \[quote\]
 
@@ -124,9 +132,11 @@ Associated Class: `quote`
 
 Argument:
 
-```data-quote
+```
+data-quote
 Contains a string of the format "nation;postId" pointing to the quote on the
-regional message boards.```
+regional message boards.
+```
 
 ### Spoiler \[spoiler\]
 
@@ -134,8 +144,10 @@ Associated Class: `spoiler`
 
 Argument:
 
-```data-spoiler = "={label}"
-Contains the spoiler's {label}. Optional argument.```
+```
+data-spoiler = "={label}"
+Contains the spoiler's {label}. Optional argument.
+```
 
 ### Float \[float\]
 
@@ -143,8 +155,10 @@ Associated Class: `float`
 
 Argument:
 
-```data-float = "=left" | "=right"
-Determines which side of the screen the content floats towards.```
+```
+data-float = "=left" | "=right"
+Determines which side of the screen the content floats towards.
+```
 
 ### Alignment \[align\]
 
@@ -152,9 +166,11 @@ Associated Class: `align`
 
 Argument:
 
-```data-align = "=left" | "=right" | "=center" | "=justify"
+```
+data-align = "=left" | "=right" | "=center" | "=justify"
 Determines the alignment of the contained text. Defaults to "=left" if no
-value is provided.```
+value is provided.
+```
 
 ### Indentation \[tab\]
 
@@ -162,8 +178,10 @@ Associated Class: `tab`
 
 Argument:
 
-```data-tab = "={pixels}"
-Contains the number of {pixels} to indent```
+```
+data-tab = "={pixels}"
+Contains the number of {pixels} to indent
+```
 
 ### Box \[box\]
 
@@ -181,10 +199,12 @@ Associated Class: `size`
 
 Argument:
 
-```data-size = "={percent}"
+```
+data-size = "={percent}"
 Contains the size of the text as a percentage of the base size. A value of
 "=100" is normal, "=200" doubles the text size, and so on. Defaults to "=100"
-if no value is provided, or "=150" if the tag is an <h1> tag.```
+if no value is provided, or "=150" if the tag is an <h1> tag.
+```
 
 ### Font \[font\]
 
@@ -192,9 +212,11 @@ Associated Class: `font`
 
 Argument:
 
-```data-font = "={font}"
+```
+data-font = "={font}"
 Contains the font family that this text should use. Defaults to "=Helvetica"
-if no value is provided."```
+if no value is provided.
+```
 
 ### Text Color \[color\]
 
@@ -202,9 +224,11 @@ Associated Class: `color`
 
 Argument:
 
-```data-color = "={color}"
+```
+data-color = "={color}"
 Contains a color word (e.g. "=red") or a hexadecimal color value (e.g.
-"=#FF0000"). Defaults to "=red" if no value is provided.```
+"=#FF0000"). Defaults to "=red" if no value is provided.
+```
 
 ### Text Highlighting \[background\]
 
@@ -212,8 +236,10 @@ Associated Class: `background`
 
 Argument:
 
-```data-background = "={color}"
-See [color]. Defaults to "=blue" if no value is provided.```
+```
+data-background = "={color}"
+See [color]. Defaults to "=blue" if no value is provided.
+```
 
 ### Background Color \[background-block\]
 
@@ -221,8 +247,10 @@ Associated Class: `background-block`
 
 Argument:
 
-```data-background-block = "={color}"
-See [color]. Defaults to "=blue" if no value is provided.```
+```
+data-background-block = "={color}"
+See [color]. Defaults to "=blue" if no value is provided.
+```
 
 ### List \[list\]
 
@@ -230,9 +258,11 @@ Associated Tags: `<ul>, <ol type="{type}">
 
 Argument:
 
-```type = "1" | "A" | "a" | "I" | "i"
+```
+type = "1" | "A" | "a" | "I" | "i"
 Unused on <ul> elements, where it is discarded. Defaults to "1" on <ol>
-elements if no value is provided.```
+elements if no value is provided.
+```
 
 ### List Item \[*\]
 
