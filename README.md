@@ -19,7 +19,7 @@ Download the bbcode.js file, and place the following tags in your .html
 document's header file to produce NS-compatible BBCode
 
 ```html
-<script src="pathto/bbcode.js></script>
+<script src="pathto/bbcode.js"></script>
 <script>window.onload = runAll;</script>
 ```
 
@@ -78,6 +78,7 @@ Associated Tags: `<a href={url}>`
 Associated Class: `anchor`
 
 Argument:
+
 ```data-anchor = "={name}"
 Contains the {name} of this anchor.```
 
@@ -90,6 +91,7 @@ Associated Tags: `<img src={url} />`
 Associated Class: `nation`
 
 Argument:
+
 ```data-nation = "=short" | "=short+noflag"
 Flag which controls the appearance of the resulting nation name. Optional
 argument.```
@@ -103,6 +105,7 @@ Associated Class: `region`
 Associated Class: `proposal`
 
 Argument:
+
 ```data-proposal = "={proposal_id}"
 Contains a id the WA proposal.```
 
@@ -111,6 +114,7 @@ Contains a id the WA proposal.```
 Associated Class: `resolution`
 
 Argument:
+
 ```data-resolution = "={(GA|SC|UN)#id}"
 Contains the assembly body and resolution number of the resolution.```
 
@@ -119,6 +123,7 @@ Contains the assembly body and resolution number of the resolution.```
 Associated Class: `quote`
 
 Argument:
+
 ```data-quote
 Contains a string of the format "nation;postId" pointing to the quote on the
 regional message boards.```
@@ -128,6 +133,7 @@ regional message boards.```
 Associated Class: `spoiler`
 
 Argument:
+
 ```data-spoiler = "={label}"
 Contains the spoiler's {label}. Optional argument.```
 
@@ -136,6 +142,7 @@ Contains the spoiler's {label}. Optional argument.```
 Associated Class: `float`
 
 Argument:
+
 ```data-float = "=left" | "=right"
 Determines which side of the screen the content floats towards.```
 
@@ -144,6 +151,7 @@ Determines which side of the screen the content floats towards.```
 Associated Class: `align`
 
 Argument:
+
 ```data-align = "=left" | "=right" | "=center" | "=justify"
 Determines the alignment of the contained text. Defaults to "=left" if no
 value is provided.```
@@ -153,6 +161,7 @@ value is provided.```
 Associated Class: `tab`
 
 Argument:
+
 ```data-tab = "={pixels}"
 Contains the number of {pixels} to indent```
 
@@ -171,6 +180,7 @@ Associated Tags: `<h1>`
 Associated Class: `size`
 
 Argument:
+
 ```data-size = "={percent}"
 Contains the size of the text as a percentage of the base size. A value of
 "=100" is normal, "=200" doubles the text size, and so on. Defaults to "=100"
@@ -181,6 +191,7 @@ if no value is provided, or "=150" if the tag is an <h1> tag.```
 Associated Class: `font`
 
 Argument:
+
 ```data-font = "={font}"
 Contains the font family that this text should use. Defaults to "=Helvetica"
 if no value is provided."```
@@ -190,6 +201,7 @@ if no value is provided."```
 Associated Class: `color`
 
 Argument:
+
 ```data-color = "={color}"
 Contains a color word (e.g. "=red") or a hexadecimal color value (e.g.
 "=#FF0000"). Defaults to "=red" if no value is provided.```
@@ -199,6 +211,7 @@ Contains a color word (e.g. "=red") or a hexadecimal color value (e.g.
 Associated Class: `background`
 
 Argument:
+
 ```data-background = "={color}"
 See [color]. Defaults to "=blue" if no value is provided.```
 
@@ -207,6 +220,7 @@ See [color]. Defaults to "=blue" if no value is provided.```
 Associated Class: `background-block`
 
 Argument:
+
 ```data-background-block = "={color}"
 See [color]. Defaults to "=blue" if no value is provided.```
 
@@ -215,6 +229,7 @@ See [color]. Defaults to "=blue" if no value is provided.```
 Associated Tags: `<ul>, <ol type="{type}">
 
 Argument:
+
 ```type = "1" | "A" | "a" | "I" | "i"
 Unused on <ul> elements, where it is discarded. Defaults to "1" on <ol>
 elements if no value is provided.```
