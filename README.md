@@ -80,7 +80,7 @@ Associated Class: `anchor`
 Argument:
 
 ```
-data-anchor = "={name}"
+id = "={name}"
 Contains the {name} of this anchor.
 ```
 

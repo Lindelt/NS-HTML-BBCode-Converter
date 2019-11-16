@@ -47,7 +47,7 @@ function runAll () {
 	// Links
 	wrapName("url", "A", "href", "=#broken_link");
 	// Anchors
-	wrapClass("anchor", "anchor", "data-anchor", "=broken_anchor");
+	wrapClass("anchor", "anchor", "id", "=broken_anchor");
 	// Nations
 	wrapClass("nation", "nation", "data-nation");
 	// Regions
