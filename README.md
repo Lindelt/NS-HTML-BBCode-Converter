@@ -216,8 +216,8 @@ Argument:
 
 ```
 data-font = "={font}"
-Contains the font family that this text should use. Defaults to "=Helvetica"
-if no value is provided.
+Contains the font family that this text should use. Defaults to "=Verdana" if 
+no value is provided.
 ```
 
 ### Text Color \[color\]

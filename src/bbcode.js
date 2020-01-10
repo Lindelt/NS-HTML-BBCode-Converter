@@ -63,7 +63,7 @@ function runAll () {
 	wrapClass("size", "size", "data-size", "=100");
 	wrapName("size", "H1", "data-size", "=150");
 	// Font
-	wrapClass("font", "font", "data-font", "=Helvetica");
+	wrapClass("font", "font", "data-font", "=Verdana");
 	// Coloration
 	wrapClass("color"
 	         , "color"
